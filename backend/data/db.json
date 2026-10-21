@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "2a182917-907b-4bf4-a28c-b4060f76c982",
+      "name": "Demo Rider",
+      "email": "rider@rideforge.demo",
+      "password": "$2a$10$g9.E7YbS8AqpdfrFIur.PuoidNTcJ75jmc7qjXV4LB2tkxvteHVJe",
+      "role": "rider",
+      "createdAt": "2026-10-21T12:16:46.902Z"
+    },
+    {
+      "id": "364cf4b5-5c1b-4155-8c88-4c15b140f635",
+      "name": "Demo Driver",
+      "email": "driver@rideforge.demo",
+      "password": "$2a$10$g9.E7YbS8AqpdfrFIur.PuoidNTcJ75jmc7qjXV4LB2tkxvteHVJe",
+      "role": "driver",
+      "vehicle": "Hyundai Aura · DL 3C AB 1234",
+      "rating": 4.9,
+      "available": true,
+      "createdAt": "2026-10-21T12:16:46.903Z"
+    },
+    {
+      "id": "90e0b6d7-8b4d-4e6a-87c4-eb3593bbd25a",
+      "name": "RideForge Admin",
+      "email": "admin@rideforge.demo",
+      "password": "$2a$10$g9.E7YbS8AqpdfrFIur.PuoidNTcJ75jmc7qjXV4LB2tkxvteHVJe",
+      "role": "admin",
+      "createdAt": "2026-10-21T12:16:46.903Z"
+    }
+  ],
+  "rides": [
+    {
+      "id": "dd659142-4e1e-406b-b16c-3b021397e04a",
+      "code": "RF-S97XKW",
+      "riderId": "2a182917-907b-4bf4-a28c-b4060f76c982",
+      "driverId": null,
+      "pickup": "Connaught Place, New Delhi",
+      "destination": "India Gate, New Delhi",
+      "pickupCoords": [
+        28.6315,
+        77.2167
+      ],
+      "destinationCoords": [
+        28.6129,
+        77.2295
+      ],
+      "distanceKm": 2.9,
+      "fare": 95,
+      "vehicleType": "Go",
+      "status": "requested",
+      "paymentStatus": "unpaid",
+      "paymentMethod": "cash",
+      "createdAt": "2026-10-21T12:18:02.379Z",
+      "updatedAt": "2026-10-21T12:18:02.379Z"
+    }
+  ],
+  "ratings": []
+}
